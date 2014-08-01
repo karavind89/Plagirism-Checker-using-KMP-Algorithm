@@ -1,0 +1,25 @@
+Instructions for executing the program kmp.java - 
+Author - Aravind Krishnkumar
+======================================================
+
+System Requirements - JRE version 6 or Above,jdk1.6.0_35 or Above
+
+
+Input -  The directory where the text files are placed are hard coded in the program itself.So no explicit input is needed.
+             Please unzip the package in the D drive of your computer
+
+
+Expected Output - Console window will show the matching percentages of each text file in the directory with the pattern text file. If the match is more than a certain threshold (default value 50%), an additional line will get printed to the console - "The name of the file is x% plagiarised with the text file name." 
+
+
+Steps to execute the code - 
+
+1. Open command prompt.
+2. Setting up system variables in the directory where the java file is placed
+
+ "set Path="" .* (For example :  "set Path=C:\Program Files\Java\jdk1.6.0_21\bin" .*)
+
+3. Navigate to the directory where the source file is placed
+4. At the prompt type javac followed by a space then the full name of the source code file kmp.java and hit Enter
+5. At the prompt type java followed by a space then the program name kmp and hit Enter
+
